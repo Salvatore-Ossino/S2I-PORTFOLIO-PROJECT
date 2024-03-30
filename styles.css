@@ -72,7 +72,20 @@ body{
 #check{
   display: none;
 }
+/****************/
 
+/*To be checked and fixed*/
+
+.smalldescrip{
+padding-top: 40%;
+font-size: 1.15rem;
+color: white;
+text-decoration: none;
+font-weight: 400;
+}
+
+
+/*Social Icons*/
 .icons{
   font-size: 2.8rem;
   color: white;
@@ -96,11 +109,12 @@ body{
   font-size: 2em;
   text-decoration: none;
 }
+
 .socialico img {
   width: 1em;
   height: 1em;
 }
-
+/****************/
 
 /*BREAKPOINTS*/
 
