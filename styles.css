@@ -81,6 +81,25 @@ body{
   right: 5%;
 }
 
+.socialmedia-container{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.socialico{
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+}
+.socialico img {
+  width: 1em;
+  height: 1em;
+}
 
 
 /*BREAKPOINTS*/
