@@ -54,6 +54,14 @@ body{
   font-weight: 700;
 }
 
+.logoimage{
+  max-width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  border: 0.09em #ac2a7a;
+  border-style: inset;
+}
+
 .navbar a{
   font-size: 1.15rem;
   color: white;
