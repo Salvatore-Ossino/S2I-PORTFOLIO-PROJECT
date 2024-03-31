@@ -67,6 +67,7 @@ body{
   color: white;
   text-decoration: none;
   font-weight: 400;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #check{
@@ -115,6 +116,8 @@ font-weight: 400;
   height: 1em;
 }
 /****************/
+
+
 
 /*BREAKPOINTS*/
 
