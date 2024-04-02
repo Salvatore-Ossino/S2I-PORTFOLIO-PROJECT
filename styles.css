@@ -132,7 +132,24 @@ font-weight: 400;
 
 /****************/
 
+/* My Projects */
 
+.myprojects{
+padding-top: 25em;
+color: white;
+text-decoration: none;
+font-weight: 400;
+}
+
+.myprojects h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.myprojects p{
+  text-align: center;
+}
+/****************/
 
 /* Contact Me Page */
 
