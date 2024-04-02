@@ -75,15 +75,56 @@ body{
 }
 /****************/
 
-/*To be checked and fixed*/
+
+/* Who am I */
 
 .smalldescrip{
-padding-top: 40%;
-font-size: 1.15rem;
+padding-top: 30%;
 color: white;
 text-decoration: none;
 font-weight: 400;
 }
+
+.smalldescrip h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.smalldescrip p{
+  text-align: center;
+}
+/****************/
+
+/* My Skills */
+
+.myskills{
+  color: white;
+}
+
+.myskills h1{
+  color: white;
+  padding-top: 2em;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/****************/
+
+
+/* My Skills */
+
+/****************/
+
+
+/* Contact Me Page */
+
+.contact-container{
+  padding-top: 2em;
+  color: white;
+}
+
+
+
 
 
 /*Social Icons*/
@@ -116,6 +157,9 @@ font-weight: 400;
   height: 1em;
 }
 /****************/
+
+
+
 
 
 
