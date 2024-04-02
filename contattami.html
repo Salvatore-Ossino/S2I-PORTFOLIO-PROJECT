@@ -7,6 +7,7 @@
     <title>S2I - Portfolio | Contattami</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--FAVICON DA INSERIRE -->
 </head>
 
 <body>
@@ -33,20 +34,28 @@
     </nav>
 
   </header>
-  
+  <!------------------------------------------------------------------------------------------>
+
+
+  <!-- Contact Form -->
   <div class="contact-container">
-    <form action="" class="contact-left">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
       <div class="contact left-title">
-        <h2>Get In Touch</h2>
+        <h2>Contattami !</h2>
         <hr>
       </div>
+      <input type="hidden" name="access_key" value="d0017b3d-03eb-4b17-959f-e5322d4c2606"> <!-- web3forms email service-->
+
+      <input type="text" name="name" placeholder="Nome" class="contact-inputs" required>
+      <input type="email" name="email" placeholder="La tua email" class="contact-inputs" required>
+      <textarea name="message" placeholder="Scrivi qui il tuo messaggio!" class="contact-inputs" required></textarea>
+      <button type="submit">Invia </button>
     </form>
-    <div class="contact-right">
-
-    </div>
   </div>
+  <!------------------------------------------------------------------------------------------>
 
 
+  <!-- Social Icons at the bottom of the page-->
   <div class="socialmedia-container">
     <a href="https://github.com/Salvatore-Ossino" target="_blank" class="socialico"> <!--Linkedin-->
       <img src="/Content/Social Icons/317750_linkedin_icon.svg">
@@ -56,6 +65,7 @@
       <img src="/Content/Social Icons/1220319_github_git_hub_repository_icon.svg">
     </a>
   </div>
+  <!------------------------------------------------------------------------------------------>
 
 </body>
 

@@ -119,9 +119,78 @@ font-weight: 400;
 /* Contact Me Page */
 
 .contact-container{
-  padding-top: 2em;
+  margin-top: 20em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   color: white;
 }
+
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+}
+
+.contact-container h2{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.05em;
+}
+
+.contact-inputs{
+  width: 30em;
+  height: 4em;
+  border: none;
+  border-radius: 10em;
+  outline: none;
+  padding-left: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.contact-inputs:focus{
+  border: 0.15em solid rgb(255, 0, 255);
+}
+
+.contact-inputs::placeholder{
+  color: rgb(109, 106, 106);
+}
+
+
+.contact-left textarea{
+  width: 30em;
+  height: 10em;
+  padding-top: 15px;
+  border-radius: 2.5em;
+  resize: none;
+  overflow-wrap: break-word;
+  padding-right: 2em;
+}
+
+.contact-left button{
+  display: flex;
+  align-items: center;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 2.5em;
+  background: linear-gradient(270deg,rgb(218, 44, 203), rgb(255, 255, 255) );
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contact-left button:hover{
+  border-color: white;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+/****************/
+
+
 
 
 
@@ -230,4 +299,16 @@ font-weight: 400;
   .navbar a{
     margin-right: 1.5rem;
   }
+
+  /* Contact Me Page */
+
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  /******************/
+
 }
