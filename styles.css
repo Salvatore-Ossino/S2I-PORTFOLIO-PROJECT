@@ -275,7 +275,7 @@ font-weight: 400;
   .myskills{  /* Content */
     text-align: center;
     padding-top: 4em;
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     font-weight: 400;
   }
@@ -347,6 +347,7 @@ font-weight: 400;
     height: auto;
     margin-top: 2em;
   }
+  
   /***************/
 
 
