@@ -163,7 +163,7 @@ font-weight: 400;
 /* Contact Me Page */
 
 .contact-container{
-  margin-top: 20em;
+  padding-top: 20em;
   height: 3em;
   display: flex;
   align-items: center;
@@ -204,13 +204,16 @@ font-weight: 400;
 
 .contact-left textarea{
   width: 30em;
-  height: 10em;
+  min-height: 4em;
+  max-height: 20em;
   padding-top: 15px;
   border-radius: 2.5em;
-  resize: none;
+  resize:vertical;
   overflow-wrap: break-word;
   padding-right: 2em;
+  scrollbar-width: none;
 }
+
 
 .contact-left button{
   display: flex;
@@ -220,7 +223,6 @@ font-weight: 400;
   border-radius: 2.5em;
   background: linear-gradient(270deg,rgb(218, 44, 203), rgb(255, 255, 255) );
   cursor: pointer;
-
 }
 
 .contact-left button:hover{
@@ -449,7 +451,7 @@ font-weight: 400;
 /***************/
 
 
-/*Desktop Query*/
+/*Desktop*/
 @media only screen and (min-width: 768px) {
 
   .header{
