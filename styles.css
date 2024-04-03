@@ -196,7 +196,7 @@ font-weight: 400;
   width: 30em;
   min-height: 4em;
   max-height: 20em;
-  padding-top: 1.3em;
+  padding-top: 15px;
   border-radius: 2.5em;
   resize:vertical;
   overflow-wrap: break-word;
@@ -240,7 +240,7 @@ font-weight: 400;
 
 .socialmedia-container{
   position: fixed;
-  bottom: 0.1em;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -248,7 +248,7 @@ font-weight: 400;
 
 .socialico{
   display: inline-block;
-  margin: 0 0.3em;
+  margin: 0 10px;
   color: #fff;
   font-size: 2em;
   text-decoration: none;
@@ -275,7 +275,7 @@ font-weight: 400;
   .myskills{  /* Content */
     text-align: center;
     padding-top: 4em;
-    color: rgb(255, 0, 0);
+    color: white;
     text-decoration: none;
     font-weight: 400;
   }
@@ -308,9 +308,8 @@ font-weight: 400;
   /***************/
 }
 
-
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
   /* My Skills */
 
