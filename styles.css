@@ -393,6 +393,18 @@ font-weight: 400;
     display: block;
   }
 
+  .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(29, 4, 57, 0.808);
+    box-shadow: 0 .5rem 1rem rgba(29, 4, 57, 0.719);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
   #check:checked~.navbar {
     height: 17.7rem;
   }
