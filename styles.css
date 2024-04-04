@@ -96,15 +96,25 @@ font-weight: 400;
 
 /* My Skills */
 
-.myskills{  /* Content */
+.skills{  /* Content */
   text-align: center;
   padding-top: 10em;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 400;
 }
 
-.myskills h1{
+/*For some reason, if i put h1 instead of h2 the query won't work, 
+maybe some specificity issue, but can't seem to find how to fix the issue
+so i decided to use the h2 and change it's dimensions to be as big as an h1.
+
+Update: Seems like that the class "myskills" wasn't working properly from some
+reason, updating it to .skills makes it work.
+
+I have no idea why, but oh well, it works
+*/
+
+.skills h1{
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -116,7 +126,7 @@ font-weight: 400;
   margin: 0 auto;
 }
 
-.skill { /* Text under the items */
+.mskill { /* Text under the items */
   display: flex; 
   flex-direction: column; 
   align-items: center;
@@ -227,8 +237,6 @@ font-weight: 400;
 
 
 
-
-
 /*Social Icons*/
 .icons{
   font-size: 2.8rem;
@@ -275,15 +283,15 @@ font-weight: 400;
 
   /* My Skills */
 
-  .myskills{  /* Content */
+  .skills{  /* Content */
     text-align: center;
-    padding-top: 4em;
-    color: white;
+    padding-top: 2em;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 400;
   }
 
-  .myskills h1{
+  .skills h1{
     color: rgb(255, 255, 255);
     text-align: center;
   }
@@ -309,7 +317,6 @@ font-weight: 400;
     margin-top: 2em;
   }
   /***************/
-  
 }
 
 
@@ -371,7 +378,7 @@ font-weight: 400;
 
   /* My Skills */
 
-  .myskills{  /* Content */
+  .skills{  /* Content */
     text-align: center;
     padding-top: 4em;
     color: white;
@@ -379,7 +386,7 @@ font-weight: 400;
     font-weight: 400;
   }
 
-  .myskills h1{
+  .skills h1{
     color: rgb(255, 255, 255);
     text-align: center;
   }
@@ -391,7 +398,7 @@ font-weight: 400;
     margin: 0 auto;
   }
 
-  .skill { /* Text under the items */
+  .mskill { /* Text under the items */
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -403,41 +410,8 @@ font-weight: 400;
     width: 5rem;
     height: auto;
     margin-top: 2em;
-  }/* My Skills */
-
-  .myskills{  /* Content */
-    text-align: center;
-    padding-top: 4em;
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
   }
-
-  .myskills h1{
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-
-  .myskillsicons { /* Container for the skills */
-    display: flex; 
-    justify-content: space-between;
-    max-width: 50rem;
-    margin: 0 auto;
-  }
-
-  .skill { /* Text under the items */
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    font-size: 1.5em;
-    margin: 0 1rem;
-  }
-
-  .myskillsicons img { /* Styling of the icons */
-    width: 7rem;
-    height: auto;
-    margin-top: 2em;
-  }
+  
   /***************/
 
 }
