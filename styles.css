@@ -72,6 +72,16 @@ body{
 #check{
   display: none;
 }
+
+.icons{
+  font-size: 2.8rem;
+  color: white;
+  cursor: pointer;
+  display: none;
+  right: 5%;
+  z-index: 999;
+}
+
 /****************/
 
 
